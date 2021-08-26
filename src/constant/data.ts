@@ -6,7 +6,7 @@ interface IDataLink {
 
 const dataLinks: IDataLink[] = [
   {
-    title: "WhatsApp Comercial",
+    title: "WhatsApp (Vendas)",
     url: "https://wa.me/5528999583179?text=Ol%C3%A1%21%20Venho%20do%20Link%20na%20Bio%20do%20Instagram%20e%20gostaria%20de%20informa%C3%A7%C3%B5es..",
     icon: "/icons/whatsapp.png",
   },
@@ -28,7 +28,7 @@ const dataLinks: IDataLink[] = [
   },
 
   {
-    title: "Localização",
+    title: "Onde estamos?",
     url: "https://g.page/ReTruck?share",
     icon: "/icons/map.png",
   },

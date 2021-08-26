@@ -63,8 +63,8 @@ const Home: NextPage = () => {
             <Image
               src="/logo_adsonagencia_site.png"
               alt="adsonagencia.com"
-              width={147}
-              height={18}
+              width={123}
+              height={15}
             />
           </span>
         </a>

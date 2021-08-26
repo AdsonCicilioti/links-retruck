@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   background: #3123bf;
 }
 
@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 80%;
 }
 
 .footer a {
@@ -93,7 +94,7 @@
   text-decoration: none;
   border: 1px solid #d8d8da;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  transition: all 0.2s ease-in-out;
   width: 100%;
 }
 .card:not(:last-child) {
@@ -105,6 +106,7 @@
 .card:active {
   color: #3423ee;
   border-color: #3423ee;
+  box-shadow: 0 8px 15px -4px rgba(52, 35, 238, 0.45);
 }
 
 .card h2 {
