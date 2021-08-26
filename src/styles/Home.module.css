@@ -1,0 +1,154 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5rem 1rem;
+  background: #3123bf;
+}
+
+.main {
+  /* padding: 5rem 0; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+  color: #fff;
+}
+
+.description {
+  line-height: 1.15;
+  font-size: 1.15rem;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 600px;
+  padding: 1.5rem;
+  background-color: #fff;
+  margin-top: -1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  display: flex;
+
+  align-items: center;
+  padding: 1rem 1.75rem 1rem 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #d8d8da;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 100%;
+}
+.card:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #3423ee;
+  border-color: #3423ee;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.15rem;
+  /* text-align: center; */
+  width: 100%;
+  font-weight: 400;
+}
+.card span {
+  flex-shrink: 0;
+  margin-right: 1rem;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+  }
+  .card h2 {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+}
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important; /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
